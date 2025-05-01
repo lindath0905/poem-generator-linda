@@ -9,8 +9,10 @@
     <title>AI Poem Generator</title>
 </head>
 <body>
-<main><div class="container">
-    <h1>AI Poem Generator</h1>
+<div class="container">
+<header><h1>AI Poem Generator</h1></header>
+<main>
+<div class="form-container">
 <form id="poem-generator-form">
     <input type="text" class="user-instructions" 
     id="user-instructions" 
@@ -19,14 +21,19 @@
     autocomplete="off">
     <input type="submit" class="submit-button">
 </form>
+<div class="hint">i.e: Flower, Love or Cheese
+</div>
+</div>
 <div class="poem hidden" id="poem"></div>
 </main>
+
    <footer>This AI-project was coded by 
         <a href="https://github.com/lindath0905" target="_blank">Linda Thurner</a>, is 
         <a href="https://github.com/lindath0905/poem-generator-linda" target="_blank">open-sourced on GitHub</a>
         and is <a href="https://poem-generator-linda.netlify.app/" target="_blank">hosted on Netlify</a>
     </footer>    
 </div>
+
     <script src="script.js"></script>
 </body>
 </html>
