@@ -2,13 +2,13 @@ body {
     background: rgb(181, 218, 243);}
 
 .container {
-    margin: 120px; 
-    max-width: 600px;
+    margin: 0 auto;
+    max-width: 60%;
 text-align: center;}
 
 h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 30px;
+    font-size: 26px;
     margin-top: 30px;}
 
 form {
@@ -18,7 +18,7 @@ form {
     width: 80%;
     background-color: rgb(215, 232, 243);}
     
-.prompt {
+.user-instructions {
     padding: 16px;
     border: none;
     width: 70%;
@@ -36,7 +36,13 @@ form {
     background: rgb(181, 218, 243);
 }
 
+.poem {font-size: 17px;
+padding: 15px;
+max-width: 60%;
+text-align: center;}
+
 footer {
     margin: 30px;
+    text-align: center;
 
 }
