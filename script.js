@@ -16,8 +16,9 @@ let context = "You are a great poet and love to write short but beautiful poems.
 let apiKey = "df3t9495b3b3410e50b1aoab7d1cc149";
 let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
-let poemElement = document.querySelector("#poem")
-poemElement.innerHTML = ".."
+let poemElement = document.querySelector("#poem");
+poemElement.classList.remove("hidden")
+poemElement.innerHTML = `Generating poem about ${instructionsInput.value}..`;
 
 axios.get(apiUrl).then(displayPoem);
 }

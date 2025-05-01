@@ -41,6 +41,8 @@ padding: 15px;
 max-width: 60%;
 text-align: center;}
 
+.hidden {display: none}
+
 footer {
     margin: 30px;
     text-align: center;
